@@ -9,12 +9,12 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TestModule"
-  s.version      = "0.0.3"
+  s.version      = "0.0.2"
   s.summary      = "the description of TestModule."
   s.homepage     = "https://github.com/talka123456/TestModule.git"
   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author       = { "ClownFish" => "15800960640@163.com" }
-  s.source       = { :git => "https://github.com/talka123456/TestModule.git", :tag => "#{spec.version}" }
+  s.source       = { :git => "https://github.com/talka123456/TestModule.git", :tag => "#{s.version}" }
   s.ios.deployment_target = '9.0'
   s.static_framework = true
   s.source_files  = "TestModule/TestModule/Classes/**/*"
