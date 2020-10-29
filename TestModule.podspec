@@ -10,13 +10,14 @@ Pod::Spec.new do |spec|
 
   spec.name         = "TestModule"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of TestModule."
+  spec.summary      = "the description of TestModule."
   spec.homepage     = "https://github.com/talka123456/TestModule.git"
   spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   spec.author             = { "ClownFish" => "15800960640@163.com" }
   spec.source       = { :git => "https://github.com/talka123456/TestModule.git", :tag => "#{spec.version}" }
-
-  spec.source_files  = "/TestModule/TestModule/Classes/**/*.{h,m}"
+  spec.ios.deployment_target = '9.0'
+  spec.static_framework = true
+  spec.source_files  = "TestModule/TestModule/Classes/**/*.{h,m}"
 
   # spec.public_header_files = "Classes/**/*.h"s
 end
