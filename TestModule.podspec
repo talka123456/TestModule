@@ -17,7 +17,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/talka123456/TestModule.git", :tag => "#{spec.version}" }
   spec.ios.deployment_target = '9.0'
   spec.static_framework = true
-  spec.source_files  = "TestModule/TestModule/Classes/**/*.{h,m}"
-
-  # spec.public_header_files = "Classes/**/*.h"s
+  spec.source_files  = "TestModule/TestModule/Classes/**/*"
 end
