@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.summary      = "the description of TestModule."
   spec.homepage     = "https://github.com/talka123456/TestModule.git"
   spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-  spec.author             = { "ClownFish" => "15800960640@163.com" }
+  spec.author       = { "ClownFish" => "15800960640@163.com" }
   spec.source       = { :git => "https://github.com/talka123456/TestModule.git", :tag => "#{spec.version}" }
   spec.ios.deployment_target = '9.0'
   spec.static_framework = true
