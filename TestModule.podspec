@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TestModule"
-  s.version      = "1.0.2"
+  s.version      = "1.0.4"
   s.summary      = "the description of TestModule."
   s.homepage     = "https://github.com/talka123456/TestModule.git"
   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
