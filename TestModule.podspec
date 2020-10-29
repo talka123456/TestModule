@@ -1,5 +1,5 @@
 
-Pod::Spec.new do |spec|
+Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -8,14 +8,14 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "TestModule"
-  spec.version      = "0.0.1"
-  spec.summary      = "the description of TestModule."
-  spec.homepage     = "https://github.com/talka123456/TestModule.git"
-  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-  spec.author       = { "ClownFish" => "15800960640@163.com" }
-  spec.source       = { :git => "https://github.com/talka123456/TestModule.git", :tag => "#{spec.version}" }
-  spec.ios.deployment_target = '9.0'
-  spec.static_framework = true
-  spec.source_files  = "TestModule/TestModule/Classes/**/*"
+  s.name         = "TestModule"
+  s.version      = "0.0.1"
+  s.summary      = "the description of TestModule."
+  s.homepage     = "https://github.com/talka123456/TestModule.git"
+  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.author       = { "ClownFish" => "15800960640@163.com" }
+  s.source       = { :git => "https://github.com/talka123456/TestModule.git", :tag => "#{spec.version}" }
+  s.ios.deployment_target = '9.0'
+  s.static_framework = true
+  s.source_files  = "TestModule/TestModule/Classes/**/*"
 end
