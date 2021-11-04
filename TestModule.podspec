@@ -16,11 +16,11 @@ Pod::Spec.new do |s|
   s.author       = { "ClownFish" => "15800960640@163.com" }
   s.source       = { :git => "https://github.com/talka123456/TestModule.git", :tag => "#{s.version}" }
   s.ios.deployment_target = '9.0'
-  s.source_files  = "TestModule/TestModule/Classes/**/*"
+  s.source_files  = "TestModule/Classes/**/*"
   # s.dependency "RxSwift"
   # s.dependency "Moya"
-  s.vendored_framework = "Frameworks/DynamicFrameworkB.framework"
-  s.vendored_library = "libraries/libStaticLibraryA.a"
+  s.vendored_framework = "TestModule/Frameworks/DynamicFrameworkB.framework"
+  s.vendored_library = "TestModule/libraries/libStaticLibraryA.a"
   
   # s.subspec 'Module_1' do |ss|
   #   ss.dependency "RxCocoa"
